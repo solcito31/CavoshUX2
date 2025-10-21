@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Verificar">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/sh_bg_header_police_blue"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="36dp"
+        android:text="@string/header_login"
+        android:textColor="@color/flesh"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/sh_bg_btn_bright_gray"
+        android:paddingHorizontal="16dp"
+        android:inputType="textEmailAddress"
+        android:maxLength="30"
+        android:hint="@string/correo"
+        android:textColorHint="@color/steel_teal"/>
+
+
+    <Button
+        android:id="@+id/btnAceptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/sh_bg_btn_gunmetal"
+        android:text="@string/aceptar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</FrameLayout>
